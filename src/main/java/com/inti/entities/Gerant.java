@@ -1,13 +1,13 @@
 package com.inti.entities;
 
-public class Atelier {
+public class Gerant {
 	public Long id;
 	public String nom;
 	
-	public Atelier() {
+	public Gerant() {
 		super();
 	}
-	public Atelier(String nom) {
+	public Gerant(String nom) {
 		super();
 		this.nom = nom;
 	}
